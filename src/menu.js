@@ -1,0 +1,16 @@
+const menu=document.createElement("div");
+const heading=document.createElement("h1");
+heading.textContent="Menu";
+const list=document.createElement("ul");
+const pizza=document.createElement("li");
+pizza.textContent="Pizza";
+const burger=document.createElement("li");
+burger.textContent="Burger";
+const chocolate=document.createElement("li");
+chocolate.textContent="Chocolate";
+list.appendChild(pizza);
+list.appendChild(burger);
+list.appendChild(chocolate);
+menu.appendChild(heading);
+menu.appendChild(list);
+export {menu};
