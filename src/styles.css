@@ -1,4 +1,7 @@
 /* styles.css */
-body {
-  background-color: rebeccapurple;
+label{
+    display: block;
+}
+button{
+    display: block;
 }
